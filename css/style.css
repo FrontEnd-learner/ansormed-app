@@ -123,4 +123,43 @@ body{
  }
 
  /* SERVICES */
- 
+ .services-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+ }
+ .services-heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%; /* 43.2px */
+ }
+ .services-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+ }
+ .services-item-content{
+    width: 600px;
+ }
+ .services-item-title{
+    margin-bottom: 24px;
+    color: #222;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+ }
+ .services-item-info{
+    color: #444;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+ }
+ .services-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
