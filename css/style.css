@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+*:focus{
+    outline: 2px dashed #03292b;
+}
+body{
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+/* SITE HEADER */
+.site-header{
+    background-color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.site-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-link{
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    transition: opacity 0.4s ease;
+}
+.logo-link img{
+    display: block;
+}
+.logo-link:hover{
+    opacity: 0.6;
+}
+.logo-link:hover .logo-text{
+    color: #DE2E54;
+}
+.logo-text{
+
+    margin-left: 16px;
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+}
+ .sitenav-list{
+    display: flex;
+
+ }
+ .sitenav-item{
+    margin-right: 32px;
+ }
+ .sitenav-item:last-child{
+    margin-right: 0;
+ }
+ .sitenav-link{
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%; /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+ }
+ .sitenav-link:hover{
+    color: #DE2E54;
+ }
+ .main-link{
+    display: inline-block;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+    padding: 12px 24px;
+    transition: all 0.4s ease;
+ }
+ .main-link:hover{
+    background: none;
+    color: #DE2E54;
+ }
+ /* HERO */
+ .hero{
+    background-color: #0EB4C1;
+    color: #fff;
+ }
+ .hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 29px;
+ }
+ .hero-heading{
+    margin-bottom: 16px;
+    width: 550px;
+    color: #FFF;
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120%; /* 43.2px */
+ }
+ .hero-text{
+    width: 440px;
+    margin-bottom: 36px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+ }
+
+ /* SERVICES */
+ 
