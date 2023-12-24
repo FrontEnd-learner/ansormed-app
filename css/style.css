@@ -161,5 +161,84 @@ body{
  .services-link{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center ;
+ }
+ /* REGISTRATION */
+ .registration{
+   background-color: #0EB4C1;
+   padding-top: 64px;
+   padding-bottom: 64px;
+
+ }
+ .registration-container{
+   display: flex;
+   justify-content: center;
+ }
+ .registration-heading{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   color: #FFF;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 120%; /* 43.2px */
+ }
+ .registration-btn{
+   color: #FFF;
+   font-size: 15px;
+   font-weight: 700;
+   line-height: 120%; /* 18px */
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   border-radius: 8px;
+   border: 2px solid #FFF;
+   padding: 12px 24px;
+   transition: all 0.4s ease;
+ }
+ .first{
+   margin-right: 40px;
+ }
+ .registration-btn:hover{
+   color: #FFF;
+   border-radius: 8px;
+   border: 2px solid #DE2E54;
+   background-color: #DE2E54;
+ }
+ /* FOOTER */
+ .site-footer{
+   background: #222;
+   padding: 24px 0;
+ }
+ .footer-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .white{
+   color: #fff;
+ }
+ .footer-list{
+   display: flex;
+   justify-content: center;
+ }
+ .footer-item{
+   margin-right: 32px;
+ }
+ .footer-item:last-child{
+   margin-right: 0;
+ }
+ .footer-item a{
+   color: #FFF;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 150%; /* 21px */
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   transition: all 0.4s ease;
+ }
+ .footer-item a:hover{
+   color: #DE2E54;
  }
