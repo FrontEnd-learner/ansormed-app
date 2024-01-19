@@ -1,58 +1,58 @@
 *{
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
 }
 *:focus{
-    outline: 2px dashed #03292b;
+   outline: 2px dashed #03292b;
 }
 body{
-    font-family: "Open Sans", "Arial", sans-serif;
-    font-style: 16px;
-    line-height: 1.5;
+   font-family: "Open Sans", "Arial", sans-serif;
+   font-style: 16px;
+   line-height: 1.5;
 }
 .container{
-    width: 100%;
-    max-width: 1140px;
-    /* padding-right: 20px;
-    padding-left: 20px; */
-    margin-left: auto;
-    margin-right: auto;
+   width: 100%;
+   max-width: 1140px;
+   padding-right: 20px;
+   padding-left: 20px;
+   margin-left: auto;
+   margin-right: auto;
 }
 /* SITE HEADER */
 .site-header{
-    background-color: #fff;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   background-color: #fff;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 .site-header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 .logo-link{
     /* display: block; */
-    display: flex;
-    align-items: center;
-    transition: opacity 0.4s ease;
+   display: flex;
+   align-items: center;
+   transition: opacity 0.4s ease;
 }
 .logo-link img{
-    display: block;
+   display: inline-block;
 }
 .logo-link:hover{
-    opacity: 0.6;
+   opacity: 0.6;
 }
 .logo-link:hover .logo-text{
-    color: #DE2E54;
+   color: #DE2E54;
 }
 .logo-text{
 
-    margin-left: 16px;
-    color: #222;
-    font-size: 24px;
-    font-weight: 600;
+   margin-left: 16px;
+   color: #222;
+   font-size: 24px;
+   font-weight: 600;
 }
  .sitenav-list{
     display: flex;
@@ -60,7 +60,7 @@ body{
  }
  .sitenav-item{
     margin-right: 32px;
- }
+}
  .sitenav-item:last-child{
     margin-right: 0;
  }
@@ -226,14 +226,14 @@ body{
  .footer-list{
    display: flex;
    justify-content: center;
- }
- .footer-item{
+}
+.footer-item{
    margin-right: 32px;
- }
- .footer-item:last-child{
+}
+.footer-item:last-child{
    margin-right: 0;
- }
- .footer-item a{
+}
+.footer-item a{
    color: #FFF;
    font-size: 14px;
    font-weight: 700;
@@ -241,7 +241,7 @@ body{
    letter-spacing: 2px;
    text-transform: uppercase;
    transition: all 0.4s ease;
- }
- .footer-item a:hover{
+}
+.footer-item a:hover{
    color: #DE2E54;
- }
+}
