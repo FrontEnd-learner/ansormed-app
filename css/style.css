@@ -12,6 +12,7 @@ body{
    font-family: "Open Sans", "Arial", sans-serif;
    font-style: 16px;
    line-height: 1.5;
+   background-color: #fff;
 }
 .container{
    width: 100%;
@@ -22,6 +23,7 @@ body{
    margin-right: auto;
 }
 /* SITE HEADER */
+/* tepa-past padding berilgan yaxshi */
 .site-header{
    background-color: #fff;
    padding-top: 24px;
@@ -33,12 +35,12 @@ body{
    align-items: center;
 }
 .logo-link{
-    /* display: block; */
+   /* display: block; */
    display: flex;
    align-items: center;
    transition: opacity 0.4s ease;
 }
-.logo-link img{
+.logo-img{
    display: inline-block;
 }
 .logo-link:hover{
@@ -48,139 +50,134 @@ body{
    color: #DE2E54;
 }
 .logo-text{
-
    margin-left: 16px;
    color: #222;
    font-size: 24px;
    font-weight: 600;
 }
- .sitenav-list{
-    display: flex;
-
- }
- .sitenav-item{
-    margin-right: 32px;
+.sitenav-list{
+   display: flex;
 }
- .sitenav-item:last-child{
-    margin-right: 0;
- }
- .sitenav-link{
-    color: #222;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 150%; /* 21px */
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    transition: all 0.4s ease;
- }
- .sitenav-link:hover{
-    color: #DE2E54;
- }
- .main-link{
-    display: inline-block;
-    color: #FFF;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 150%; /* 22.5px */
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border-radius: 8px;
-    border: 2px solid #DE2E54;
-    background: #DE2E54;
-    padding: 12px 24px;
-    transition: all 0.4s ease;
- }
- .main-link:hover{
-    background: none;
-    color: #DE2E54;
- }
- /* HERO */
- .hero{
-    background-color: #0EB4C1;
-    color: #fff;
- }
- .hero-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 29px;
- }
- .hero-heading{
-    margin-bottom: 16px;
-    width: 550px;
-    color: #FFF;
-    font-family: "Open Sans Condensed";
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 120%; /* 43.2px */
- }
- .hero-text{
-    width: 440px;
-    margin-bottom: 36px;
-    color: #FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 27px */
- }
+.sitenav-item:not(:last-child){
+   margin-right: 32px;
+}
+.sitenav-link{
+   color: #222;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 150%; /* 21px */
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   transition: all 0.4s ease;
+}
+.sitenav-link:hover{
+   color: #DE2E54;
+}
+.main-link{
+   display: inline-block;
+   color: #FFF;
+   font-size: 15px;
+   font-weight: 700;
+   line-height: 150%; /* 22.5px */
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   border-radius: 8px;
+   border: 2px solid #DE2E54;
+   background: #DE2E54;
+   padding: 12px 24px;
+   transition: all 0.4s ease;
+}
+.main-link:hover{
+   background: none;
+   color: #DE2E54;
+}
+/* HERO */
+.hero{
+   background-color: #0EB4C1;
+   color: #fff;
+}
+.hero-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 29px;
+}
+.hero-heading{
+   margin-bottom: 16px;
+   width: 550px;
+   color: #FFF;
+   font-family: "Open Sans Condensed";
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 120%; /* 43.2px */
+}
+.hero-text{
+   width: 440px;
+   margin-bottom: 36px;
+   color: #FFF;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 150%; /* 27px */
+}
+.hero-img{
+   /* tagidagi bo'shliq yo'qoldi img ga display:flex; bergan yaxshi*/
+   display: flex;
+}
 
-
- /* SERVICES */
- .services-container{
-    padding-top: 120px;
-    padding-bottom: 120px;
- }
- .services-heading{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 56px;
-    color: #000;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 120%; /* 43.2px */
- }
- .services-item{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 80px;
- }
- .services-item-content{
-    width: 600px;
- }
- .services-item-title{
-    margin-bottom: 24px;
-    color: #222;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 120%; /* 28.8px */
- }
- .services-item-info{
-    color: #444;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
- }
- .services-link{
-    display: flex;
-    justify-content: center;
-    align-items: center ;
- }
- /* REGISTRATION */
- .registration{
+/* SERVICES */
+.services-container{
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
+.services-heading{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 56px;
+   color: #000;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 120%; /* 43.2px */
+}
+.services-item{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 80px;
+}
+.services-item-content{
+   width: 600px;
+}
+.services-item-title{
+   margin-bottom: 24px;
+   color: #222;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 120%; /* 28.8px */
+}
+.services-item-info{
+   color: #444;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 150%; /* 24px */
+}
+.services-link{
+   display: flex;
+   justify-content: center;
+   align-items: center ;
+}
+/* REGISTRATION */
+.registration{
    background-color: #0EB4C1;
    padding-top: 64px;
    padding-bottom: 64px;
 
- }
- .registration-container{
+}
+.registration-container{
    display: flex;
    justify-content: center;
- }
- .registration-heading{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+}
+.registration-heading{
    margin-bottom: 40px;
    margin-left: auto;
    margin-right: auto;
@@ -188,8 +185,9 @@ body{
    font-size: 36px;
    font-weight: 700;
    line-height: 120%; /* 43.2px */
- }
- .registration-btn{
+   text-align: center;
+}
+.registration-btn{
    color: #FFF;
    font-size: 15px;
    font-weight: 700;
@@ -200,30 +198,30 @@ body{
    border: 2px solid #FFF;
    padding: 12px 24px;
    transition: all 0.4s ease;
- }
- .first{
+}
+.first{
    margin-right: 40px;
- }
- .registration-btn:hover{
+}
+.registration-btn:hover{
    color: #FFF;
    border-radius: 8px;
    border: 2px solid #DE2E54;
    background-color: #DE2E54;
- }
- /* FOOTER */
- .site-footer{
+}
+/* FOOTER */
+.site-footer{
    background: #222;
    padding: 24px 0;
- }
- .footer-container{
+}
+.footer-container{
    display: flex;
    justify-content: space-between;
    align-items: center;
- }
- .white{
+}
+.white{
    color: #fff;
- }
- .footer-list{
+}
+.footer-list{
    display: flex;
    justify-content: center;
 }
@@ -233,7 +231,7 @@ body{
 .footer-item:last-child{
    margin-right: 0;
 }
-.footer-item a{
+.footer-link{
    color: #FFF;
    font-size: 14px;
    font-weight: 700;
